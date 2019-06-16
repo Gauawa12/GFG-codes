@@ -10,3 +10,4 @@ void mirror(Node* node)
      Node* r=node->right;
      node->left=r;
      node->right=l;
+}
